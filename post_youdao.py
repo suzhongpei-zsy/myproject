@@ -1,4 +1,6 @@
+import random
 import requests
+import time
 
 url="http://fanyi.youdao.com/translate_o?smartresult=dict&smartresult=rule"
 

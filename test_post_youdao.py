@@ -8,6 +8,11 @@ class PostYoudaoTest(unittest.TestCase):
         self.assertEqual(True,True)
 
     def test_get_ts(self):
+        #import time
+        #t=time.time()
+        #ts=str(int(round(t * 1000)))
+        #prrint(ts)
+
         get_ts=mock.Mock(return_value='1584684880395')
         self.assertEqual('1584684880395',get_ts())
 
